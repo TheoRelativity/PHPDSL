@@ -32,9 +32,9 @@ echo json_encode($result);
 ```php
 protected static $syntax = 
  [
-		"/^(\w+)/" => "COMMAND", 
-		"/(\s+)/" =>   "WHITESPACES" 
-    ];
+    "/^(\w+)/" => "COMMAND", 
+    "/(\s+)/" =>   "WHITESPACES" 
+ ];
 ```
 5. Be careful when you order the regex codes!!!
 6. Good WorK!
